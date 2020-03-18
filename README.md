@@ -10,7 +10,7 @@ This is exploring the text from abstracts based on COVID19 search on pubmed. Ret
 ### Topic model(LDA):
 
 
-### click here [CNN TOPIC Model](http://htmlpreview.github.com/?https://github.com/htanjore/covid19_pubmed/blob/master/data/ldacovid.html)
+### click here [COVID-19 TOPIC Model](http://htmlpreview.github.com/?https://github.com/htanjore/covid19_pubmed/blob/master/data/ldacovid.html)
 
 
 
