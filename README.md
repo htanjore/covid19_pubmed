@@ -5,12 +5,26 @@ This is exploring the text from abstracts based on COVID19 search on pubmed. Ret
 
 ### Data: Data was acquired using Pubmed API and Eutilities with BeautifulSoup.
 
-#### The code can be used to search for specific key words covid19 or novel coronavirus. The source for the articles is from Pubmed https://www.ncbi.nlm.nih.gov/pubmed/ . 
+#### The code can be used to search for specific key words covid19 or novel coronavirus. The source for the articles is from Pubmed https://www.ncbi.nlm.nih.gov/pubmed/  with search terms "novel coronavirus or covid-19 or coronavirus disease-2019". 
  
 ### Topic model(LDA):
 
 
 ### click here [COVID-19 TOPIC Model](http://htmlpreview.github.com/?https://github.com/htanjore/covid19_pubmed/blob/master/data/ldacovid.html)
+
+
+
+Number of Articles published each year with noval coronal virus /COVID-19
+![ScreenShot](data/numbers_per_year.png 'Number of Journals Published with impact factor')
+
+
+Number of Articles published as original Manuscripts with Impact factor on bars
+![ScreenShot](data/journals.png 'Number of Journals Published with impact factor')
+
+
+Original Articles published in high impact journals with Numbers of articles on each bar
+
+![ScreenShot](data/journals_highimpact.png 'Number of Journals Published with impact factor')
 
 
 
