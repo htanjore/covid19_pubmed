@@ -27,7 +27,6 @@ Original Articles published in high impact journals with Numbers of articles on 
 ![ScreenShot](data/journals_highimpact.png 'Number of Journals Published with impact factor')
 
 
-
 Word Cloud of Bigrams Where COVID19 is used in Pumbed research:
 ![ScreenShot](data/word_cloud_covid19.png 'Covid19')
 
