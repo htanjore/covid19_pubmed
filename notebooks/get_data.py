@@ -68,6 +68,8 @@ def get_dataframe(filename, tocsv):
     keywords=[]
     Medlinecitation = []
     pubmed_year =[]
+    pubtype=[]
+    affiliation=[]
     for file in tqdm(files):
         with open(file, 'r') as reader:
             contents = reader.read()
@@ -124,7 +126,7 @@ def get_dataframe(filename, tocsv):
                     for i in year1:
                         pubmed_year.append(i.text)
 
-            pubtype=[]
+            
             for item in tqdm(root):
                 pub = item.find('PublicationTypeList')
                 if pub is not None:
@@ -178,7 +180,7 @@ def get_dataframe(filename, tocsv):
                 status = item.get('Status')
                 Medlinecitation.append(status)    
 
-            affiliation=[] 
+             
             for item in tqdm(root):
                 abstract_text = item.find('AuthorList')
                 if abstract_text is not None:
