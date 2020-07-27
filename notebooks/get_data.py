@@ -36,12 +36,13 @@ def get_data(search_for, filename):
         #get = get_url+"&retmax="+number+"&retstart="+str(item)
         get_response = requests.post(get).text
         all_items.append(get_response)
-        for index, word in enumerate(all_items):
+        for index, text in enumerate(all_items):
             if not os.path.isdir('../data/output'):
                     os.mkdir('../data/output')
             with open("../data/output/"+filename+str(index)+".txt", "w") as text_file:
                 time.sleep(0.1)
-                print(word, file=text_file)
+                print(text, file=text_file)
+                
         
         print("Total Number of records found :"+str(total_ids_search))
         
