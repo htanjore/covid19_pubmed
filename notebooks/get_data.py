@@ -35,7 +35,7 @@ def get_data(search_for, filename):
         get = get_url+"&retstart="+str(item)
         #get = get_url+"&retmax="+number+"&retstart="+str(item)
         get_response = requests.post(get).text
-        all_items.append(get_response)
+        all_text.append(get_response)
         for index, text in enumerate(all_text):
             if not os.path.isdir('../data/output'):
                     os.mkdir('../data/output')
