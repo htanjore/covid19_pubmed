@@ -41,7 +41,8 @@ def get_data(search_for, filename):
                     os.mkdir('../data/output')
             with open("../data/output/"+filename+str(index)+".txt", "w") as text_file:
                 time.sleep(0.1)
-                print(text, file=text_file)
+                text_file.write(text)
+                text_file.close()
                 
         
         print("Total Number of records found :"+str(total_ids_search))
