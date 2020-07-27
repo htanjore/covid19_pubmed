@@ -1,4 +1,4 @@
-### Articles pulled on 04-08-2020
+### Articles pulled on 07-28-2020
 ## covid19 or novel coronavirus from pubmed and Topic Model
 This is exploring the text from abstracts based on COVID19 search on pubmed. Retrieved latest articles. Initial Exploratory data analysis and Topic Model. 
 
