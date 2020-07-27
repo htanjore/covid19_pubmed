@@ -5,7 +5,7 @@ This is exploring the text from abstracts based on COVID19 search on pubmed. Ret
 
 ### Data: Data was acquired using Pubmed API and Eutilities with BeautifulSoup.
 
-#### The code can be used to search for specific key words covid19 or novel coronavirus. The source for the articles is from Pubmed https://www.ncbi.nlm.nih.gov/pubmed/  with search terms "novel coronavirus or covid-19 or coronavirus disease-2019". 
+#### The code can be used to search for articles in pubmed. The source for the articles is from Pubmed https://www.ncbi.nlm.nih.gov/pubmed/  with search terms "novel coronavirus or covid-19 or coronavirus disease-2019". 
  
 ### Topic model(LDA):
 
