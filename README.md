@@ -30,3 +30,7 @@ Original Articles published in high impact journals with Numbers of articles on 
 Word Cloud of Bigrams Where COVID19 is used in Pumbed research:
 ![ScreenShot](data/word_cloud_covid19.png 'Covid19')
 
+
+Word Cloud of Top Words in each topic:
+![ScreenShot](topic_words_covid19.png 'Covid19')
+
