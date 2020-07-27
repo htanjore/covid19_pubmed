@@ -30,13 +30,13 @@ def get_data(search_for, filename):
     query_key = search.find('QueryKey').text
     get_url = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&retmode=xml&retmax=99999&query_key=1&webenv="+webenv
     item = '0'
-    all_items = []
+    all_text = []
     for item in tqdm(range(0, total_ids_search, 10000)):
         get = get_url+"&retstart="+str(item)
         #get = get_url+"&retmax="+number+"&retstart="+str(item)
         get_response = requests.post(get).text
         all_items.append(get_response)
-        for index, text in enumerate(all_items):
+        for index, text in enumerate(all_text):
             if not os.path.isdir('../data/output'):
                     os.mkdir('../data/output')
             with open("../data/output/"+filename+str(index)+".txt", "w") as text_file:
