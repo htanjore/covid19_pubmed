@@ -43,10 +43,7 @@ def get_data(search_for, filename):
                 time.sleep(0.1)
                 print(word, file=text_file)
         
-        print("Total Number of records found :"+str(total_ids_search
-        
-        
-        ))
+        print("Total Number of records found :"+str(total_ids_search))
         
 
 get_data(search_item,filename)
