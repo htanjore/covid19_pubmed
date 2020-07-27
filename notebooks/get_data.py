@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[11]:
-
-
 import pandas as pd
 from bs4 import BeautifulSoup
 import os.path
