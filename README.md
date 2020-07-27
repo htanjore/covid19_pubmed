@@ -32,5 +32,5 @@ Word Cloud of Bigrams Where COVID19 is used in Pumbed research:
 
 
 Word Cloud of Top Words in each topic:
-![ScreenShot](topic_words_covid19.png 'Covid19')
+![ScreenShot](data/topic_words_covid19.png 'Covid19')
 
