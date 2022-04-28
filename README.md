@@ -1,4 +1,6 @@
-### Articles pulled on 07-28-2020
+### Articles scraped on 07-28-2020 #36553 and ~20000 articles for LDA
+### Articles scraped on 04-27-2022 #252002 and 187007 articles for LDA
+
 ## covid19 or novel coronavirus from pubmed and Topic Model
 This is exploring the text from abstracts based on COVID19 search on pubmed. Retrieved latest articles. Initial Exploratory data analysis and Topic Model. 
 
@@ -24,7 +26,7 @@ Number of Articles published as original Manuscripts with Impact factor on bars
 
 Original Articles published in high impact journals with Numbers of articles on each bar
 
-![ScreenShot](data/journals_highimpact.png 'Number of Journals Published with impact factor')
+![ScreenShot](data/top_countries.png 'Top Countries Publishing on Covid19')
 
 
 Word Cloud of Bigrams Where COVID19 is used in Pumbed research:
