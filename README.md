@@ -20,12 +20,11 @@ Number of Articles published each year with noval coronal virus /COVID-19
 ![ScreenShot](data/numbers_per_year.png 'Number of Journals Published with impact factor')
 
 
-Number of Articles published as original Manuscripts with Impact factor on bars
+Journals Publishing on Covid-19
 ![ScreenShot](data/journals.png 'Number of Journals Published with impact factor')
 
 
-Original Articles published in high impact journals with Numbers of articles on each bar
-
+Top 15 Countries Actively Publishing on Covid-19
 ![ScreenShot](data/top_countries.png 'Top Countries Publishing on Covid19')
 
 
