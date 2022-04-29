@@ -24,7 +24,7 @@ Journals Publishing on Covid-19
 ![ScreenShot](data/journals.png 'Number of Journals Published with impact factor')
 
 
-Top 15 Countries Actively Publishing on Covid-19
+Top 20 Countries Actively Publishing on Covid-19
 ![ScreenShot](data/top_countries.png 'Top Countries Publishing on Covid19')
 
 
